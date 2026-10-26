@@ -1,0 +1,50 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 300px;
+}
+
+.product-card {
+  width: 250px;
+  height: 180px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ddd;
+  border-radius: 22px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.product-card h2 {
+  margin-top: 40px;
+  color: #f7f2f2;
+}
+
+.price {
+  color: #fcf7f7;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #3f3636;
+  color: rgb(241, 40, 26);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
